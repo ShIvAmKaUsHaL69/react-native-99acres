@@ -59,7 +59,7 @@ export async function getuser() {
             const useravatar = avatar.getInitials(responce.name);
             return {
                 ...responce,
-                avatar: useravatar.toString();
+                avatar: useravatar.toString()
             }
         }
     } catch (error) {
