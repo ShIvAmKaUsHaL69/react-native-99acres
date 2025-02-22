@@ -1,3 +1,4 @@
+import Search from "@/components/Search";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
 import React from "react";import { Image, Text, View } from "react-native";
@@ -18,6 +19,7 @@ export default function Index() {
           <Image source={icons.bell} className="size-6" />
         </View>
       </View>
+      <Search />
     </SafeAreaView>
   );
 }
