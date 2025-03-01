@@ -3,7 +3,7 @@ import icons from '@/constants/icons'
 import images from '@/constants/images'
 import { logout } from '@/lib/appwrite'
 import { useGlobalContext } from '@/lib/global-provider'
-import React, { Component } from 'react'
+import React from 'react'
 import { Alert, Image, ImageSourcePropType, ScrollView, Text, TouchableOpacity, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
