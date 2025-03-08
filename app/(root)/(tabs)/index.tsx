@@ -4,7 +4,7 @@ import Search from "@/components/Search";
 import icons from "@/constants/icons";
 import { useGlobalContext } from "@/lib/global-provider";
 import React from "react";
-import { FlatList, Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { Button, FlatList, Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
