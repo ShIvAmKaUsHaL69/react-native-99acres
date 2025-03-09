@@ -15,7 +15,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shivamkaushal.reactnativerealestateapp",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -34,8 +39,9 @@
         }
       ],
       [
-        "expo-font", {
-          "fonts" : [
+        "expo-font",
+        {
+          "fonts": [
             "./assets/fonts/Rubik-Bold.ttf",
             "./assets/fonts/Rubik-ExtraBold.ttf",
             "./assets/fonts/Rubik-Medium.ttf",
@@ -48,6 +54,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fe5a987b-e912-4ccb-bd97-b46a454c5291"
+      }
     }
   }
 }
